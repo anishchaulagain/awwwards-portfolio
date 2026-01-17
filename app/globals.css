@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #EDEDED;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Utilities if needed */
+@layer utilities {
+  .tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
